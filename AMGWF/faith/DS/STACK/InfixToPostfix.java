@@ -50,7 +50,7 @@ public class InfixToPostfix {
             } else {                                                            //Operator
                 while (!stack.isEmpty() && Prec(c) <= Prec(stack.peek()))
                     result += String.valueOf(stack.pop());
-                stack.push(c);
+                stack.push(c); 
             }
 
         }

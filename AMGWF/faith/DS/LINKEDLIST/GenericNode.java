@@ -29,6 +29,7 @@ public class GenericNode<T> {
     }
     
     public GenericNode() {this(null,null);}
+    //public GenericNode(T val) {}
     
     public String toString (){
         return element.toString();
